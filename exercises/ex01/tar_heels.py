@@ -12,7 +12,7 @@ if user_number % 2 == 0 and user_number % 7 == 0:
 else:
     if user_number % 2 == 0:
         print("TAR")
-        if user_number % 7 == 0:
-            print("HEELS") 
+    if user_number % 7 == 0:
+        print("HEELS") 
     else:
         print("CAROLINA")

@@ -10,8 +10,6 @@ __author__ = "730310486"
 # For example, consider the function call expression: randint(1, 100)
 # It will evaluate to an int value >= 1 and <= 100. 
 from random import randint
-
-
 # Begin your solution here...
 print("Your fortune cookie says...")
 fortune = randint(1, 100)
@@ -23,9 +21,4 @@ else:
         print("Soon life will become more interesting.")
     else:
         print("Be careful what you wish for.")
-
-
-
-
-
 print("Now, go spread positive vibes!")
