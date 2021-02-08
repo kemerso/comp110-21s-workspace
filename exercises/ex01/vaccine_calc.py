@@ -31,7 +31,7 @@ days_left = round(goal_doses / doses_per_day)
 today: datetime = datetime.today()
 one_day: timedelta = timedelta(1)
 goal_day: datetime = today + one_day * days_left
-goal_day = goal_day.strftime("%B %d, %Y")
+goal_day_str: str = goal_day.strftime("%B %d, %Y")
 
 
-print("We will reach " + str(target) + "% vaccination in " + str(days_left) + " days, which falls on " + str(goal_day))
+print("We will reach " + str(target) + "% vaccination in " + str(days_left) + " days, which falls on " + goal_day_str)
